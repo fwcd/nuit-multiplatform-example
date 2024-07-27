@@ -1,0 +1,23 @@
+[package]
+name = "nuit-multiplatform-example"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[[bin]]
+name = "nuit-multiplatform-example-desktop"
+path = "gen/bin/desktop.rs"
+
+[dependencies]
+mobile-entry-point = "0.1.0"
+nuit = "0.0.4"
+
+[target.'cfg(target_os = "android")'.dependencies]
+android_logger = "0.14.1"
+log = "0.4.11"
+ndk-glue = "0.7.0"
+
+[target.'cfg(not(target_os = "android"))'.dependencies]
+simple_logger = "5.0.0"

@@ -1,0 +1,8 @@
+[app]
+name = "nuit-multiplatform-example"
+stylized-name = "Nuit Multiplatform Example"
+domain = "example.com"
+template-pack = "winit"
+
+[apple]
+development-team = "$(DEVELOPMENT_TEAM)"
