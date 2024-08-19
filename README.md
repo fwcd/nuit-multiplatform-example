@@ -3,7 +3,7 @@
 A small example for a simple multiplatform (desktop + mobile) app written in Rust using the declarative UI library [Nuit](https://github.com/fwcd/nuit).
 
 > [!IMPORTANT]
-> This is highly experimental and currently only tested on macOS. Support for more platforms, especially Linux, is planned in the future.
+> This is highly experimental and currently only works on macOS and iOS. Support for more platforms, especially Linux, is planned in the future.
 
 ## Getting Started
 
