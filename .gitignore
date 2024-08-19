@@ -2,9 +2,9 @@
 target/
 **/*.rs.bk
 
-# cargo-mobile
+# cargo-mobile2
 .cargo/
-gen
+/gen
 
 # macOS
 .DS_Store

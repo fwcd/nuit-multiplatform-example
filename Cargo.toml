@@ -3,6 +3,9 @@ name = "nuit-multiplatform-example"
 version = "0.1.0"
 edition = "2021"
 
+[package.metadata.cargo-apple.ios]
+frameworks = []
+
 [lib]
 crate-type = ["staticlib", "cdylib", "rlib"]
 
@@ -11,7 +14,7 @@ name = "nuit-multiplatform-example-desktop"
 path = "gen/bin/desktop.rs"
 
 [dependencies]
-mobile-entry-point = "0.1.0"
+mobile-entry-point = "0.1.1"
 nuit = "0.0.4"
 
 [target.'cfg(target_os = "android")'.dependencies]

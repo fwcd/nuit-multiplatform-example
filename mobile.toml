@@ -1,7 +1,7 @@
 [app]
 name = "nuit-multiplatform-example"
 stylized-name = "Nuit Multiplatform Example"
-domain = "example.com"
+identifier = "multiplatform.nuit.example.com"
 template-pack = "winit"
 
 [apple]
