@@ -267,9 +267,9 @@ dependencies = [
 
 [[package]]
 name = "nuit"
-version = "0.0.4"
+version = "0.0.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0f2506890539e3c7707aeba3cce6e014e03c8a95638e85140de01cca547f6372"
+checksum = "1f04d8a27a5099ea56afc6ae0c6949b7d3471678bd164857bc08fe83600e05e1"
 dependencies = [
  "nuit-bridge-swiftui",
  "nuit-core",
@@ -278,9 +278,9 @@ dependencies = [
 
 [[package]]
 name = "nuit-bridge-swiftui"
-version = "0.0.4"
+version = "0.0.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "65867487765829758f1b9a41bc50ea321a48c31f3460ee713de766fc8f810af8"
+checksum = "9d7a690d6b20ff8f33adeb157cf196df3fcfd0198c781792fccc1c3ffa0ec625"
 dependencies = [
  "nuit-core",
  "serde",
@@ -289,9 +289,9 @@ dependencies = [
 
 [[package]]
 name = "nuit-core"
-version = "0.0.4"
+version = "0.0.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "547e9f30c62fc85c83a1feab134b4d559f789ec9875dc5330c19a5c605acd95f"
+checksum = "2ea776fcb4ae7f2907f1d28855ab99d608da808dabbdaa52fd6bfd9fed65f0f1"
 dependencies = [
  "ref-cast",
  "serde",
@@ -300,9 +300,9 @@ dependencies = [
 
 [[package]]
 name = "nuit-derive"
-version = "0.0.4"
+version = "0.0.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d30eb84fce187969512daf7f9beaa27c28619e8222a7540f1a743c97dcc943e1"
+checksum = "93f3b3f9b64c52182609e3f55d43122f64b26d4ca7a766b50063d0ec6d5e5198"
 dependencies = [
  "quote",
  "syn 2.0.75",
