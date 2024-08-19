@@ -7,7 +7,7 @@ A small example for a simple multiplatform (desktop + mobile) app written in Rus
 
 ## Getting Started
 
-First make sure to have [`cargo-mobile`](https://github.com/BrainiumLLC/cargo-mobile) installed, then run
+First make sure to have [`cargo-mobile2`](https://github.com/tauri-apps/cargo-mobile2) installed, then run
 
 ```sh
 cargo mobile init
